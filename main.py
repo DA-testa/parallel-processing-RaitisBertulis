@@ -22,6 +22,8 @@ def main():
     # first line - n and m
     # n - thread count 
     # m - job count
+    n=0
+    m=0
     n, m = map(int, input().split())
 
     # second line - data 
@@ -34,8 +36,6 @@ def main():
     # TODO: print out the results, each pair in it's own line
     for pair in result:
         print(pair[0], pair[1])
-
-
 
 if __name__ == "__main__":
     main()
