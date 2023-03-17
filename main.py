@@ -9,7 +9,7 @@ def parallel_processing(n, m, data):
     while idx < m:
         next = 0
         for i in range (1, n):
-            if laiks[i] < laiks[next]
+            if laiks[i] < laiks[next]:
                 next = i
         output.append((next, laiks[next]))
         laiks[next] = laiks[next] + data[idx]
