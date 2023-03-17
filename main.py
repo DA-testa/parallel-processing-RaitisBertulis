@@ -6,7 +6,7 @@ def parallel_processing(n, m, data):
     # create the output pairs
     laiks = [0] * n
     idx = 0
-    while idx < m
+    while idx < m:
         next = 0
         for i in range (1, n):
             if laiks[i] < laiks[next]
